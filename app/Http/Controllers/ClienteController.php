@@ -12,7 +12,7 @@ class ClienteController extends Controller
         return new Cliente;
     }
     protected function getFieldValue($data) {
-        //dd($data);
+        
         return [
                 'documento' => $data['documento'],
                 'username'   => $data['username'],
